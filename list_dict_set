@@ -1,0 +1,30 @@
+#creating a list
+my_list = [2,4,6,8]
+#adding an element to the list
+my_list.append(10)
+#removing an element from the list
+my_list.remove(6)
+#modify an element in the list
+my_list[1] = 14
+print("Updated list:", my_list)
+
+#creating a Dictionary
+my_dict = {'Alice': 85, 'Bob': 92, 'Charlie': 78}
+# Adding
+my_dict['David'] = 88
+# Removing
+del my_dict['Alice']
+# Modifying
+my_dict['Bob'] = 95
+print("Updated dictionary:",my_dict)
+
+# Set operations
+my_set = {'Alice', 'Bob', 'Charlie'}
+# Adding
+my_set.add('Oliver')
+# Removing
+my_set.remove('Bob')
+# Modifying (remove and add)
+my_set.remove('Charlie')
+my_set.add('Steve')
+print("Updated Set:",my_set)
